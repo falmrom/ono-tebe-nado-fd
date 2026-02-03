@@ -1,1 +1,308 @@
-/* место для вашего кода */
+/* Header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-content: center;
+  align-items: center;
+
+  min-width: 1100px;
+  min-height: 293px;
+  padding: 0 50px 0;
+
+  font-size: 18px;
+}
+
+.header__nav-list {
+  display: flex;
+  margin-right: auto;
+  list-style: circle;
+  gap: 30px;
+}
+
+.listStyle-NONE {
+  list-style: none;
+}
+
+.textDecoration-OFF {
+  text-decoration: none;
+}
+
+
+.header__logo {
+  display: block;
+  width: 136px;
+}
+
+
+/* Address */
+.address {
+  font-style: normal;
+  justify-self: end;
+}
+
+.address_listStyle {
+  list-style: none;
+  line-height: 22px;
+}
+
+.text-borderBottom {
+  display: inline-block;
+
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+}
+
+.address_text-maxWidth {
+  max-width: 240px;
+  white-space: pre-nowrap;
+}
+
+
+
+/* Main */
+.main{
+  display: grid;
+  min-width: 1100px;
+}
+
+
+/* Cover */
+.cover {
+  display: flex; 
+  flex-direction: column;
+  
+  position: relative;
+  min-width: 1100px;
+  min-height: 757px;
+  background-image: url("../images/cover.jpg");
+
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: top;
+  z-index: 0;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  margin: 165px 50px 0;
+
+  font-size: 100px;
+  color: white;
+  letter-spacing: 30px;
+  
+  gap: 18px;
+}
+
+.text-left {
+  align-self: flex-start;
+  margin-right: -30px
+}
+
+.text-center {
+  align-self: center;
+  margin-right: -30px
+}
+
+.text-right {
+  text-align: right;
+  margin-right: -30px
+}
+
+
+.cover__desciption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 104px 50px 50px;
+
+  font-size: 22px;
+  color: white;
+}
+
+.cover__desciption-text {
+  word-spacing: 19px;
+}
+
+.bet-botton {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 12px 32px;
+}
+
+
+/* Lots */
+.lots {
+  margin-top: 180px;
+  padding: 0 24px 0;
+  min-width: 1052px;
+  min-height: 723px;
+}
+
+.lots__title {
+  display: block;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.lots_cards {
+
+}
+
+.lots__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  gap: 25px;
+}
+
+.lots__card-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: relative;
+  width: 334px;
+  min-height: 596px;
+
+  margin-top: 27px;
+  color: white;
+  
+  background-size: cover;
+  background-position: center;
+}
+
+.lots__card-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 48px 40px;
+}
+
+.lots__card-title {
+  min-height: 100%;
+
+  line-height: 120%;
+  font-size: 22px;
+  font-style: 400;
+  text-transform: uppercase;
+  font-weight: 700;
+  
+}
+
+.lots__card-item {
+  min-height: 100%;
+
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.lot-film__img {
+  background-image: url(../images/card-lot-01.jpg);
+  z-index: 0;
+}
+
+.lot-book__img {
+  background-image: url(../images/card-lot-02.jpg);
+  z-index: 0;
+}
+
+.lot-pictures__img {
+  background-image: url(../images/card-lot-03.jpg);
+  z-index: 0;
+}
+
+.lots__more {
+
+}
+
+
+/* About */
+.about {
+  margin-top: 120px;
+  padding: 0 24px 0;
+  min-width: 1052px;
+  min-height: 595px;
+}
+
+.about__container-logo {
+
+}
+
+.about__logo {
+
+}
+
+.about__container-logo {
+
+}
+
+.about__title {
+
+}
+
+.about_description {
+
+}
+
+
+/* Footer */
+.footer {
+  display: grid;
+  margin-top: 180px;
+  min-width: 1100px;
+  min-height: 180px;
+}
+
+.footer__address {
+
+}
+
+.footer__address-list {
+
+}
+
+.footer__contacts {
+
+}
+
+.footer_nav {
+
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+
+  list-style: circle;
+
+  gap: 10px;
+}
+
+.footer__social-links {
+
+}
+
+
+/* Дополнительные стили */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgb(0 0 0/ .6);
+  height: 100%;
+  z-index:-1
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
