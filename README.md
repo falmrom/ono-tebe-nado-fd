@@ -1,1 +1,1 @@
-https://github.com/falmrom/ono-tebe-nado
+https://github.com/falmrom/ono-tebe-nado-fd
