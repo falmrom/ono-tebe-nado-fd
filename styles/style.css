@@ -5,13 +5,7 @@
   inset: 0;
   background-color: rgb(0 0 0/ .6);
   height: 100%;
-  z-index:-1
-}
-
-.circle {
-  color: gray;
-  font-size: 14px;
-  margin: 0 5px;
+  z-index:-1;
 }
 
 .listStyle-none {
@@ -49,8 +43,9 @@
   align-items: center;
   list-style: none;
   margin-bottom: 5px;
-  gap: 7px;
+  gap: 32px;
 
+  list-style: circle;
   text-transform: lowercase;
 }
 
@@ -83,7 +78,7 @@
 
 
 /* Main */
-.main{
+.main {
   display: grid;
   min-width: 1100px;
 }
@@ -284,7 +279,6 @@
 
 .about__column {
   margin-left: 8px;
-  height: %
 }
 
 .about__title {

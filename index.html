@@ -18,11 +18,9 @@
           <li class="listStyle-none">
             <a class="textDecoration-OFF" href="#main">главная</a>
           </li>
-          <span class="circle" aria-hidden="true">○</span>
           <li>
             <a class="underline-black" href="#lots">посмотреть лоты</a>
           </li>
-          <span class="circle" aria-hidden="true">○</span>
           <li>
             <a class="underline-black" href="#about">об аукционе</a>
           </li>
@@ -59,8 +57,7 @@
     <main class="main" id="main">
 
       <!-- Cover -->
-      <cover class="cover">
-        <div class="overlay"></div>
+      <section class="cover">
         <h1 class="cover__title">
           <span class="text-left">оно</span>
           <span class="text-center">тебе</span>
@@ -70,19 +67,20 @@
           <p class="cover__desciption-text">Аукцион вещей, в которые никто не верил</p>
           <button class="bet-botton">сделать ставку</button>
         </div>
-      </cover>
+        <div class="overlay"></div>
+      </section>
 
       <!-- Lots -->
-      <lots class="lots" id="lots">
+      <section class="lots" id="lots">
         <h4 class="lots__title">Лоты</h4>
 
         <ul class="lots__list">
           <li class="lots__card">
             <a class="textDecoration-OFF" href="#">
               <article class="lots__card-list-item lot-film__img">
-                <h1 class="lots__card-title">
+                <h4 class="lots__card-title">
                   Фильм режиссёра, который бросил киношколу
-                </h1> 
+                </h4> 
                 <p class="lots__card-item">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
@@ -93,9 +91,9 @@
           <li class="lots__card">
             <a class="textDecoration-OFF" href="#">
               <article class="lots__card-list-item lot-book__img">
-                <h1 class="lots__card-title">
+                <h4 class="lots__card-title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h1> 
+                </h4> 
                 <p class="lots__card-item">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
                 </p>
@@ -106,9 +104,9 @@
           <li class="lots__card">
             <a class="textDecoration-OFF" href="#">
               <article class="lots__card-list-item lot-pictures__img">
-                <h1 class="lots__card-title">
+                <h4 class="lots__card-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h1> 
+                </h4> 
                 <p class="lots__card-item">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
                 <div class="overlay"></div>
@@ -118,13 +116,13 @@
         </ul>
 
         <div class="lots__more underline-black">посмотреть больше</div>
-      </lots>
+      </section>
       
       <!-- About -->
-      <about class="about" id="about">
+      <section class="about" id="about">
         <!-- Блок с лого (1/3 грид-контейнера) -->
         <div class="about__logo">
-          <img class="about__logo-img" src="/images/logo-white.svg">
+          <img class="about__logo-img" src="/images/logo-white.svg" alt="Лого белое на черном фоне. Фон круглой формы.">
         </div>
         <!-- Блок с description 2/3 грид-контейнера -->
         <section class="about__column">
@@ -138,7 +136,7 @@
             </p>
           </div>
         </section>
-      </about>
+      </section>
 
     </main>
 
@@ -158,7 +156,7 @@
               href="mailto:info@sobaka.ge">info@sobaka.ge
             </a>           
           </li>
-          <li">
+          <li>
             наб. Принсенграхт 263-265, Амстердам
           </li>
         </ul>
